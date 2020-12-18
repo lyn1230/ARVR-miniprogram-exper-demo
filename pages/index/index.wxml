@@ -1,0 +1,15 @@
+<view class="container">
+  <image src="./backImg.png"></image>
+  <view class="pluginStyle" bindtap="showARList">点击体验AR</view>
+  <view class="arList" wx:if="{{showAR}}">
+      <navigator class="firstVR" url="plugin://myPlugin/AR-page?activityId=239&openId=false">
+        图像识别
+      </navigator>
+      <view class="secondVR" bindtap="jumpToLip">口红试妆</view>
+  </view>
+
+
+  <view class="vrStyle" bindtap="jumpToVR">点击体验VR</view>
+
+
+</view>

@@ -1,0 +1,9 @@
+<camera  frame-size="medium" device-position='front' style='width:480px;height:640px'>
+<canvas type='webgl' id='c' canvas-id="c" style='width:480px;height:640px' disable-scroll='true'></canvas>
+
+<!-- <canvas type='webgl' id='c' canvas-id="c" style='width:288px;height:352px' disable-scroll='true'></canvas> -->
+</camera>
+<view>
+<button type="default" bindtap="start">开始</button>
+
+</view>

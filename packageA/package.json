@@ -1,0 +1,15 @@
+{
+  "name": "face",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tensorflow-models/blazeface": "0.0.5",
+    "@tensorflow-models/facemesh": "0.0.3",
+    "@tensorflow/tfjs-backend-webgl": "2.0.1",
+    "@tensorflow/tfjs-converter": "2.0.1",
+    "@tensorflow/tfjs-core": "2.0.1",
+    "fetch-wechat": "0.0.3",
+    "threejs-miniprogram": "0.0.5"
+  }
+}

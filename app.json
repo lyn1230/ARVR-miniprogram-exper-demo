@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/renDaVR/renDaVR",
+    "pages/lip/lip"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/index/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "热链科技",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "1.0.0",
+      "provider": "wx1a1c4f0ed97ce3a2"
+    },
+    "tfjsPlugin": {
+      "version": "0.1.0",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
